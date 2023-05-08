@@ -14,12 +14,12 @@ export function LinearSteeper() {
   return (
     <MobileStepper
       variant="progress"
-      steps={6}
+      steps={4}
       position="bottom"
       activeStep={activeStep}
-      sx={{ maxWidth: '100%', flexGrow: 1 }}
+      sx={{ flexGrow: 1 }}
       nextButton={
-        <Button size="small" onClick={() => setActiveStep( activeStep + 1)} disabled={activeStep === 5}>
+        <Button size="small" onClick={() => setActiveStep( activeStep + 1)} disabled={activeStep === 3}>
           Siguiente
           {theme.direction === 'rtl' ? (
             <KeyboardArrowLeft />

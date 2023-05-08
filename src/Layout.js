@@ -1,7 +1,6 @@
 import { AppBar, Box, Toolbar, Typography } from "@mui/material";
 import { LinearSteeper } from "./LinearSteeper";
 import { StepForms } from "./StepForms";
-import "./layout.css"
 
 export function Layout() {
     return (
